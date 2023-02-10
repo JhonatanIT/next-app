@@ -1,8 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Web
+https://next-app-lac-three.vercel.app/
+
 ## Install
 
-1. npx create-react-app react
+1. npx create-next-app react
 2. npm i -S styled-components
 3. npm i -D babel-plugin-styled-components
 4. Generate .babelrc with the following code:
