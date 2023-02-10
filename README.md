@@ -12,6 +12,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
             "plugins": ["babel-plugin-styled-components"]
         }
 5. Create _document.js
+6. Add test:
+
+        npm i -D jest babel-jest @testing-library/react @testing-library/jest-dom identity-obj-proxy react-test-renderer @testing-library/user-event jest-environment-jsdom @types/testing-library__jest-dom
+
+7. 
+
+        npm run build
 
 ## Getting Started
 

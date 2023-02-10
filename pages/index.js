@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Coffee from '../public/coffee.png'
+//import Coffee from '../public/coffee.png'
 
 //a file or package with [id] store a dynamic value
 
@@ -17,8 +17,7 @@ export default function Pokemones({ pokemones }) {
     <div>
       <Link href="/chanchitos">Ir a chanchitos</Link>
       <p>Chanchito feliz</p>
-      <Image src={Coffee} width={400} height={400} alt="Coffee"/>
-      <p>Mi App de Pokemones</p>
+      <p data-testid='title'>Mi App de Pokemones</p>
       <ul>
         {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name} />)}
       </ul>
